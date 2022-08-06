@@ -24,6 +24,7 @@
 		"git-lfs": "latest",
 		"aws-cli": "latest",
 		"sshd": "latest",
-		"node": "14.19.0"
+		"node": "14.19.0",
+		"openvpn": "latest"
 	}
 }
