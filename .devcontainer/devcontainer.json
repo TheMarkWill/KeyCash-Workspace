@@ -12,9 +12,6 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"initializeCommand": "bash .devcontainer/save-config.sh",
-
 	// [Optional] Once the dev container is running, automatically start up the VPN client
 	"postStartCommand": "bash .devcontainer/post-build.sh",
 
