@@ -13,7 +13,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "initializeCommand": "bash .devcontainer/save-config.sh",
+	"initializeCommand": "bash .devcontainer/save-config.sh",
 
 	// [Optional] Once the dev container is running, automatically start up the VPN client
 	// "postStartCommand": "bash .devcontainer/start-openvpn.sh && bash .devcontainer/pos-build.sh",
