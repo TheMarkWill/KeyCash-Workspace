@@ -1,0 +1,1 @@
+npm install -g git-draft eslint vercel typescript ts-node ts-node-dev
