@@ -13,8 +13,8 @@
 	// "forwardPorts": [],
 
 	// [Optional] Once the dev container is running, automatically start up the VPN client
-	"postStartCommand": "bash .devcontainer/post-build.sh",
-
+	// "postStartCommand": "bash .devcontainer/post-build.sh",
+    "postStartCommand": "bash ./.devcontainer/postcreate/install-dev-tools.sh",	
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
